@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    clear:both;
+    display: block;
+    content: "";
+    padding-bottom: 30px;
+}
+img{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid black;
+}
+.navbar{
+    text-align: center;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.navbar a{
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    text-decoration: none;
+    background-color: lightgray;
+    font-size: 25px;
+}
+a{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    text-decoration: none;
+    background-color: lightgray;
+    font-size: 25px;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+.header{
+    text-align: center;
+    background-color: bisque;
+    height: 200px;
+    font-family: fantasy;
+    padding-bottom: 200px;
+    color: white;
+    font-size: 40px;
+    margin-top: -20px;
+}
+.header div{
+    width: fit-content;
+    height: fit-content;
+    background-image: url(Slike/elephant.png);
+    background-size: cover;
+    background-position: center;
+}
+.header div h1{ 
+    width: fit-content;
+    background-color: rgba(0, 8, 255, 0.325);
+}
+.footer{
+    text-align: center;
+    background-color: bisque;
+    height: 100px;
+}
+.preporuceno{
+    text-align: center;
+    max-height: 500px;
+    border: 1px solid black;
+    float: left;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+h1{
+    text-align: center;
+}
+.preporuceno div{
+    width: 100%;
+}
+.svepreporuke{
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button{
+    width:100%;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.tehnologija{
+    background-image: url(Slike/tehnologija.jpg);
+    background-size: cover;
+    height: 250px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 90px;
+}
+.odjeca{
+    background-image: url(Slike/odjeca.jpg);
+    background-size: cover;
+    height: 250px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 90px;
+}
+.igracke{
+    background-image: url(Slike/igracke.jpg);
+    background-size: cover;
+    height: 250px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.kozmetika{
+    background-image: url(Slike/kozmetika.jpg);
+    background-size: cover;
+    height: 250px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 90px;
+}
+.preporuke{
+    background-color: lightskyblue;
+    background-size: cover;
+    height: 250px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 90px;
+}
+#naslov{
+    width: fit-content;
+    margin: 0 auto;
+    background-color: rgba(211, 211, 211, 0.643);
+}
+@media only screen and (max-width:900px) 
+{
+    *{
+        font-size: 100%;
+    }
+    img{
+        width: 100%;
+        height: 100px;
+        border-bottom: 1px solid black;
+    }
+    .preporuceno{
+        text-align: center;
+        max-height: 500px;
+        border: 1px solid black;
+        float: left;
+        font-size: 60%;
+    }
+}
